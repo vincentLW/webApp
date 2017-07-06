@@ -1,0 +1,36 @@
+.position-list {
+    margin: 0px;
+    padding: 0px;
+    .item {
+        margin: 0px 0px;
+        padding: 7px 3px;
+        list-style: none;
+        border-bottom: 1px solid @listLineColor;
+        .logo {
+            .w(65);
+            .h(65);
+            margin-right: 13px;
+        }
+        .title {
+            margin: 0px;
+        }
+        .text {
+            margin: 0px;
+        }
+        .icon{
+            .w(30);
+            .h(28);
+            top:14px;
+            right: 12px;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            &.star{
+            background-image: url(../image/star.png);
+            }
+
+            &.star-active{
+            background-image: url(../image/star-active.png);
+            }
+        }
+    }
+}
